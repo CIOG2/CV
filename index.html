@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="src/CSS/hamburguerBoton.css" media="(max-width: 599px)">
+    <link rel="stylesheet" href="src/CSS/headerTablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="src/CSS/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <section class="header__section">
+            <nav class="header__section--navbar">
+                <div class="header__section--navbar--izquierda display">
+                    <h2>CIOG</h2>
+                </div>
+                <div class="header__section--navbar--derecha display">
+                    <div class="hamburger-menu">
+                        <button onclick="desplegarLista()">
+                            <div class="bar top" id="hamburger-top"></div>
+                            <div class="bar middle" id="hamburger-middle"></div>
+                            <div class="bar bottom" id="hamburger-bottom"></div>        
+                        </button>
+                    </div> 
+                    <ul class="links-desplegables menu-Desplegable" id="menu-desplegable__hamburguer">
+                        <li><a href="">Proyectos</a></li>
+                        <li><a href="">Educacion</a></li>
+                        <li><a href="">Conocimientos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>  
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+<script src="src/JS/hamburguer.js"></script>
 </html>

@@ -1,0 +1,22 @@
+.header__section--navbar--derecha .hamburger-menu{
+    display: none;
+}
+.header__section--navbar--derecha{
+    margin-right: 40px;
+}
+
+.menu-Desplegable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-Desplegable li{   
+    margin-left: 20px;
+    list-style: none;
+}
+.menu-Desplegable li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: aliceblue;
+}
