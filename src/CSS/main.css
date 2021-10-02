@@ -13,6 +13,7 @@ body{
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: black;
 }
 .flex{
     display: flex;
@@ -78,11 +79,12 @@ body{
 .main{
     width: 100%;
     width: auto;
-    background-image: linear-gradient(to bottom, #6f7a8a, #8691a2, #9da8ba, #b5c0d3, #cdd8ec);
 }
 .main__section--title{
     width: 100%;
     height: 100vh;
+        background-image: linear-gradient(to bottom, #6f7a8a, #8691a2, #9da8ba, #b5c0d3, #cdd8ec);
+
 }
 
 .main__section--title h1{
@@ -202,8 +204,9 @@ body{
 
 .main__section--proyectos{
     width: 100%;
-    height: 500px;
-    background-image: linear-gradient(to bottom, #a4afc1, #b5bbc9, #c5c7d1, #d4d4d9, #e1e1e1);
+    height: 800px;
+    background-color: black;
+    background-size: cover;
 }
 .main__section--proyectos--title{
     width: 100%;
