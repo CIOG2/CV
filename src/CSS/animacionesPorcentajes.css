@@ -1,17 +1,17 @@
 .HTML-Progreso{
-    animation: AnimacionHTML 5s cubic-bezier(1, 1, 1, 1);
+    animation: AnimacionHTML 3s cubic-bezier(1, 1, 1, 1);
     width: 90%;
 }
 .JS-Progreso{
-    animation: AnimacionJS 5s cubic-bezier(1, 1, 1, 1);
+    animation: AnimacionJS 3s cubic-bezier(1, 1, 1, 1);
     width: 70%;
 }
 .CSS-Progreso{
-    animation: AnimacionCSS 5s cubic-bezier(1, 1, 1, 1);
+    animation: AnimacionCSS 3s cubic-bezier(1, 1, 1, 1);
     width: 85%;
 }
 .GIT-Progreso{
-    animation: AnimacionGIT 5s cubic-bezier(1, 1, 1, 1);
+    animation: AnimacionGIT 3s cubic-bezier(1, 1, 1, 1);
     width: 60%;
 }
 
