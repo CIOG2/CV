@@ -231,9 +231,11 @@ body{
 }
 
 .main__section--proyectos--container-proyectos{
-    width: 100%;
+    display: grid;
+    width: 90%;
     height: auto;
     padding: 50px 0 90px;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .main__section--proyectos--container-proyectos a{
     width: 100%;
@@ -246,7 +248,7 @@ body{
     height: 400px;
     border-radius: 20px;
     box-shadow: -2px 2px 13px 2px greenyellow;
-    margin: 0 30px;
+    margin: 0 0 40px 40px;
 }
 .main__section--proyectos--container-proyectos .container-proyecto .imagen-container{
     width: 100%;
@@ -271,4 +273,10 @@ body{
 .main__section--proyectos--container-proyectos .container-proyecto .descripcion-container p{
     font-size: 1.5rem;
     color: greenyellow;
+}
+@media (min-width: 800px){
+    .main__section--proyectos--container-proyectos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0fr 0fr 0fr;
+    }
 }
