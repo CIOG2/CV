@@ -1,0 +1,36 @@
+
+
+
+
+@keyframes AnimacionHTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes AnimacionCSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes AnimacionJS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes AnimacionGIT{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
