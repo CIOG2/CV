@@ -175,7 +175,7 @@ body{
 .main__section--educacion--texto{
     width: auto;
     height: auto;
-    text-align: justify;
+    text-align: left;
     margin: 30px 10% 200px;
 }
 .main__section--educacion--texto p{
@@ -194,17 +194,9 @@ body{
 .main__section--educacion--texto p a:hover{
     color: greenyellow;
 }
-
-
-
-
-
-
-
-
 .main__section--proyectos{
     width: 100%;
-    height: 800px;
+    height: auto;
     background-color: black;
 }
 .main__section--proyectos--title{
@@ -231,12 +223,51 @@ body{
     margin-bottom: 30px;
     color: greenyellow;
 }
+.main__section--proyectos--texto p a{
+    color: greenyellow;
+}
+.main__section--proyectos--texto p a:hover{
+    color: white;
+}
 
 .main__section--proyectos--container-proyectos{
     width: 100%;
     height: auto;
+    padding: 50px 0 90px;
+}
+.main__section--proyectos--container-proyectos a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.main__section--proyectos--container-proyectos .container-proyecto{
+    width: 90%;
+    max-width: 230px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 13px 2px greenyellow;
+    margin: 0 30px;
+}
+.main__section--proyectos--container-proyectos .container-proyecto .imagen-container{
+    width: 100%;
+    height: 70%;
+}
+.main__section--proyectos--container-proyectos .container-proyecto .imagen-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}   
+
+.main__section--proyectos--container-proyectos .container-proyecto .descripcion-container{
+    width: 100%;
+    height: 30%;
+    border-radius: 0 0 20px 20px;
+    border-top: 1px solid greenyellow;
+    padding:  0 10px;
+    text-align: center;
 }
 
-.main__section--proyectos--container-proyectos .container-proyecto{
-    
+.main__section--proyectos--container-proyectos .container-proyecto .descripcion-container p{
+    font-size: 1.5rem;
+    color: greenyellow;
 }
