@@ -8,15 +8,12 @@
 }
 .CSS-Progreso{
     animation: AnimacionCSS 3s cubic-bezier(1, 1, 1, 1);
-    width: 85%;
+    width: 80%;
 }
 .GIT-Progreso{
     animation: AnimacionGIT 3s cubic-bezier(1, 1, 1, 1);
     width: 60%;
 }
-
-
-
 
 @keyframes AnimacionHTML{
     0%{
@@ -31,7 +28,7 @@
         width: 0%;
     }
     100%{
-        width: 85%;
+        width: 80%;
     }
 }
 @keyframes AnimacionJS{
